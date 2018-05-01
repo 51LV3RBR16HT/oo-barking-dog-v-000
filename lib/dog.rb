@@ -9,4 +9,7 @@ class Dog
     @name
   end
 
+  def name = (fido)
+    @name = fido
+  end
 end
