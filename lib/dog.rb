@@ -13,5 +13,6 @@ class Dog
     @name = new_name
   end
 end
+end
 
 fido = Dog.new("Fido")
