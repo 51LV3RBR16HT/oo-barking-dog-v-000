@@ -18,8 +18,9 @@
 # fido = Dog.new("Fido")
 
 class Dog
-  def initialize(name)
+  def initialize(name, bark = "Woof")
     @name = name
+    @bark = "Woof"
   end
 
   # def bark
@@ -30,3 +31,4 @@ end
 fido = Dog.new
 fido.name = "Fido"
 fido.name
+fido.bark
