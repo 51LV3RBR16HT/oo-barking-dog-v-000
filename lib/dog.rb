@@ -20,12 +20,12 @@
 class Dog
   def initialize(name, bark = "Woof")
     @name = name
-    @bark = "Woof"
+    @bark = bark
   end
 
-  # def bark
-  #   puts "Woof"
-  # end
+  def bark
+    puts "Woof"
+  end
 end
 
 fido = Dog.new
